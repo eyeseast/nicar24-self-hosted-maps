@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <title>Big</title>
+    <link href="big.css" rel="stylesheet" type="text/css" />
+    <script src="big.js"></script>
+
+    <style>
+      div img {
+        max-height: 90%;
+      }
+    </style>
+  </head>
+  <body class="light">
+    <div>How your newsroom can build a self-hosted map stack</div>
+
+    <div>
+      <h2>Play along</h2>
+      <a href="https://github.com/eyeseast/self-hosted-maps-codespace"
+        >https://github.com/eyeseast/self-hosted-maps-codespace</a
+      >
+    </div>
+
+    <div>
+      <img src="./img/baltimore-trees.png" alt="Baltimore trees" />
+    </div>
+
+    <div>Why self-host?</div>
+
+    <div>
+      <h2>$$$$$$$</h2>
+
+      <p>
+        <a target="_blank" href="https://docs.protomaps.com/deploy/cost"
+          >How much will this cost?</a
+        >
+      </p>
+    </div>
+
+    <div
+      class="layout"
+      style="grid-template-rows: 1fr; grid-template-columns: 33% 33% 33%"
+    >
+      <img
+        src="./img/hw-google-map.png"
+        alt="A broken Google Map on Homicde Watch DC"
+      />
+      <img src="./img/felt-no-embed.png" alt="A disabled Felt embed" />
+      <img
+        src="./img/felt-over-limit.png"
+        alt="A Felt map over the usage limit"
+      />
+      <notes
+        >I have a lot of broken maps around the internet. It's a sad
+        situation.</notes
+      >
+    </div>
+
+    <div>
+      <h2>Data</h2>
+      <ul>
+        <li>OpenStreetMap</li>
+        <li>Geofabrik</li>
+        <li>Natural Earth</li>
+        <li>Government</li>
+        <li>Overture</li>
+      </ul>
+      <notes>Data sources: OSM, Natural Earth, government data, Overture</notes>
+    </div>
+
+    <div>
+      <h2>Download your tiles</h2>
+      <ul>
+        <li>MapTiler</li>
+        <li>PMTiles daily builds</li>
+      </ul>
+      <notes>Tiling, the easy way: Download from MapTiler or Protomaps</notes>
+    </div>
+
+    <div><img src="./img/maptiiler.png" alt="MapTiler downloads" /></div>
+
+    <div>
+      <img
+        src="./img/protomats-daily-builds.png"
+        alt="Protomaps daily builds"
+      />
+    </div>
+    <div>
+      <pre>
+        <code>
+          pmtiles extract https://build.protomaps.com/20240308.pmtiles public/baltimore.pmtiles --bbox="-76.861861,39.096181,-76.360388,39.454149"
+        </code>
+      </pre>
+    </div>
+
+    <div
+      class="layout"
+      style="grid-template-rows: 1fr; grid-template-columns: 45% 45%"
+    >
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/d/d3/William_Henry_Harrison_by_James_Reid_Lambdin%2C_1835.jpg"
+        alt="William Henry Harrison"
+      />
+
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/a/ab/John_Tyler_%28cropped_3x4%29.png"
+        alt="John Tyler"
+      />
+    </div>
+
+    <div>
+      <h2>Tiling, DIY</h2>
+      <ul>
+        <li>Planetiler</li>
+        <li>Tilemaker</li>
+        <li>Tippecanoe</li>
+      </ul>
+      <notes>Tiling, DIY: Planetiler, Tilemaker, Tippecanoe</notes>
+    </div>
+
+    <div>
+      <img src="./img/openmaptiles.png" alt="OpenMapTiles" />
+      <notes>Style</notes>
+    </div>
+
+    <div
+      class="layout"
+      style="grid-template-rows: 1fr; grid-template-columns: 50% 50%"
+    >
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/7/77/Bauer_Bodoni_Mostra.svg"
+        alt="Font"
+      />
+
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/3/37/Miko%C5%82ajDSC_0186.jpg"
+        alt="Icon"
+      />
+      <notes>Fonts and icons</notes>
+    </div>
+
+    <div>
+      <h2>How do I host this?</h2>
+      <img
+        src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzRhdWpibm81dzFmanVieXQwMTltcGV4aHdseDk5ZDkxcmU2MnBqMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XT3OT1p8Gee6DMIJri/giphy.gif"
+        alt="Hosting"
+      />
+      <notes>Hosting</notes>
+    </div>
+
+    <div><img src="./img/wildfires.png" alt="wildfires" /></div>
+  </body>
+</html>
