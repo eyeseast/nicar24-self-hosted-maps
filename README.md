@@ -9,4 +9,4 @@ Useful links:
 - [Codespace: A tilemaker starter kit](https://github.com/eyeseast/tilemaker-map-template)
 - [Cost calculator for PMTiles](https://docs.protomaps.com/deploy/cost)
 
-Have fun. If you get lost, find me on [mastodon](https://journa.host/home).
+Have fun. If you get lost, find me on [mastodon](https://journa.host/@chrisamico).
